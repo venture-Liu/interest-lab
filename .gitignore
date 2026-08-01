@@ -1,0 +1,26 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs, caches, and build artifacts
+*.log
+.cache/
+tmp/
+temp/
+dist/
+build/
+coverage/
+
+# Common language environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+node_modules/
